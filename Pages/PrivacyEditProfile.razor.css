@@ -1,0 +1,49 @@
+.editprofile-psec {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.editprofilepsec-content {
+    display: flex;
+    flex-direction: row;
+    height: 750px;
+}
+
+.editprofile-sidebar {
+    width: 30%;
+}
+
+.ep-rightside {
+    display: flex;
+    width: 70%
+}
+
+.ep-form {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.ep-form>h2 {
+    font-size: 1.2em;
+}
+
+.ep-form > p {
+    font-size: 0.9em;
+    color: #535151;
+    text-align: start;
+    width: 95%;
+    word-break: break-word;
+    line-break: normal;
+    hyphens: auto;
+    overflow-wrap: break-word;
+}

@@ -1,0 +1,124 @@
+.wmi-container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 40%;
+}
+
+.wmicl-login-card {
+    width: 350px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wmicllc-logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 45px;
+    padding-top: 5px;
+    height:auto;
+}
+
+.wmicllc-form {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    height: 60%;
+    border-radius: 2px;
+    height: auto;
+}
+
+.wmicllc-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    height: auto;
+}
+
+.wmicllc-buttons {
+    padding-top: 15px;
+    height: auto;
+}
+
+.wmicllc-buttons>button {
+    width: 100%;
+}
+
+.wmicllc-message {
+    padding-top: 15px;
+    font-size: 0.78em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.wmicllc-recover {
+    padding-top: 5px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 0.8em;
+    justify-content: center;
+    flex: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.wmicllc-recover>.custom-btn {
+    width: 100%;
+    color: #3868a1;
+}
+
+.wmicllc-options {
+    width: 100%;
+    padding: 20px;
+    font-size: 0.85em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    height: 25%;
+}
+
+@media (max-width: 1050px) {
+    .wmi-container-image {
+        display: flex;
+    }
+    .wmi-container-login {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+    }
+    .wmicl-login-card {
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+    }
+    .wmicllc-form {
+        height: 70%;
+    }
+    .wmicllc-recover {
+        height: 10%;
+    }
+    .wmicllc-logo-title {
+        height: 20%;
+    }
+    .wmicllc-options {
+        width: 30%;
+    }
+}
